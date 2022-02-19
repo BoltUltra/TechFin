@@ -611,8 +611,13 @@ Ensure the default browser behavior of the `hidden` attribute.
   justify-content: space-between;
 }
 
-.gap-2 {
-  gap: 0.5rem;
+.gap-y-6 {
+  row-gap: 1.5rem;
+}
+
+.gap-x-5 {
+  -moz-column-gap: 1.25rem;
+       column-gap: 1.25rem;
 }
 
 .place-self-end {
@@ -838,14 +843,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-radius: 0.25rem;
   --tw-bg-opacity: 1;
   background-color: rgb(38 38 43 / var(--tw-bg-opacity));
-  padding-left: 1.75rem;
-  padding-right: 1.75rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
 }
 
 .card-text {
-  padding-right: 0.5rem;
+  padding-right: 0.25rem;
   padding-top: 0.75rem;
   font-size: 13px;
   font-weight: 600;
