@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.card {
+  @apply bg-card px-7 py-6 rounded;
+}
+
+.card-text {
+  @apply text-[13px] pr-2 pt-3 text-gray-500 font-semibold;
+}
+
+.card-title {
+  @apply font-bold py-4 text-lg;
+}
