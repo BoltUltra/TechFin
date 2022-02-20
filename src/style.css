@@ -13,3 +13,11 @@
 .card-title {
   @apply font-bold py-4 text-lg;
 }
+
+.fund {
+  @apply px-20 border-b-[1px] font-semibold pb-5 focus:border-b-border;
+}
+
+.button {
+  @apply px-7 py-4 rounded-full uppercase font-semibold;
+}
