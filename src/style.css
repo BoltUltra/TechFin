@@ -21,3 +21,7 @@
 .button {
   @apply px-7 py-4 rounded-full uppercase font-semibold;
 }
+
+.footerHeader {
+  @apply text-gray-500 font-semibold;
+}
