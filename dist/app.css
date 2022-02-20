@@ -502,6 +502,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 }
 
+.fixed {
+  position: fixed;
+}
+
 .absolute {
   position: absolute;
 }
@@ -548,6 +552,18 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .right-0 {
   right: 0px;
+}
+
+.bottom-0 {
+  bottom: 0px;
+}
+
+.z-\[-1\] {
+  z-index: -1;
+}
+
+.z-\[-2\] {
+  z-index: -2;
 }
 
 .my-10 {
@@ -616,6 +632,38 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 1.5rem;
 }
 
+.mb-16 {
+  margin-bottom: 4rem;
+}
+
+.mb-40 {
+  margin-bottom: 10rem;
+}
+
+.mt-40 {
+  margin-top: 10rem;
+}
+
+.mt-20 {
+  margin-top: 5rem;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+.ml-28 {
+  margin-left: 7rem;
+}
+
+.ml-32 {
+  margin-left: 8rem;
+}
+
+.mb-24 {
+  margin-bottom: 6rem;
+}
+
 .flex {
   display: flex;
 }
@@ -632,6 +680,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 80%;
 }
 
+.w-\[\] {
+  width: ;
+}
+
+.w-\[60\%\] {
+  width: 60%;
+}
+
+.w-\[70\%\] {
+  width: 70%;
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
@@ -646,6 +706,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .items-center {
   align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .justify-between {
@@ -689,7 +753,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .bg-root {
   --tw-bg-opacity: 1;
-  background-color: rgb(30 31 33 / var(--tw-bg-opacity));
+  background-color: rgb(6 6 6 / var(--tw-bg-opacity));
 }
 
 .bg-card {
@@ -781,6 +845,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 10rem;
 }
 
+.px-72 {
+  padding-left: 18rem;
+  padding-right: 18rem;
+}
+
 .pt-5 {
   padding-top: 1.25rem;
 }
@@ -813,12 +882,68 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-left: 1.25rem;
 }
 
+.pb-16 {
+  padding-bottom: 4rem;
+}
+
+.pb-20 {
+  padding-bottom: 5rem;
+}
+
 .pl-20 {
   padding-left: 5rem;
 }
 
 .pr-8 {
   padding-right: 2rem;
+}
+
+.pb-0 {
+  padding-bottom: 0px;
+}
+
+.pl-2 {
+  padding-left: 0.5rem;
+}
+
+.pl-10 {
+  padding-left: 2.5rem;
+}
+
+.pl-4 {
+  padding-left: 1rem;
+}
+
+.pr-1 {
+  padding-right: 0.25rem;
+}
+
+.pl-8 {
+  padding-left: 2rem;
+}
+
+.pl-7 {
+  padding-left: 1.75rem;
+}
+
+.pl-6 {
+  padding-left: 1.5rem;
+}
+
+.pb-10 {
+  padding-bottom: 2.5rem;
+}
+
+.pl-12 {
+  padding-left: 3rem;
+}
+
+.pb-2 {
+  padding-bottom: 0.5rem;
+}
+
+.pb-24 {
+  padding-bottom: 6rem;
 }
 
 .text-center {
@@ -861,6 +986,22 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
+}
+
+.text-\[3\.7rem\] {
+  font-size: 3.7rem;
+}
+
+.text-\[3\.6rem\] {
+  font-size: 3.6rem;
+}
+
+.text-\[3\.5rem\] {
+  font-size: 3.5rem;
+}
+
+.text-\[3\.4rem\] {
+  font-size: 3.4rem;
 }
 
 .font-semibold {
@@ -977,7 +1118,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .hover\:text-root:hover {
   --tw-text-opacity: 1;
-  color: rgb(30 31 33 / var(--tw-text-opacity));
+  color: rgb(6 6 6 / var(--tw-text-opacity));
 }
 
 @media (min-width: 768px) {
